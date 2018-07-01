@@ -20,9 +20,10 @@ class Student <Person
     #
     # Write your constructor here
     def initialize(fname, lname, id, scores)
-        @firstName = fname
-        @lastName = lname
-        @id = id
+	super(fname, lname, id)
+        # @firstName = fname
+        # @lastName = lname
+        # @id = id
         @scores = scores
     end
 
